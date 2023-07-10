@@ -2,8 +2,8 @@
     margin: 0px;
 }
 
-.header {
-    height: 100vh;
+.color-red {
+    color: red;
 }
 
 .nav-container {
@@ -27,4 +27,40 @@
 .menus a {
     text-decoration: none;
     color: white;
+}
+
+.banner {
+    background-image: linear-gradient(to top, rgba(63, 63, 63, 0.534), rgba(141, 141, 141, 0.255)), url('../asset/image/background.jpg');
+    text-align: center;
+    height: 100vh;
+}
+
+.header-title {
+    font-size: 55px;
+    color: white;
+    padding-top: 40vh;
+}
+
+.header-para {
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.header-button-left {
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: red;
+    font-size: 16px;
+    border: none;
+    color: white;
+}
+
+.header-button-right {
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+    border: none;
+    color: rgb(0, 0, 0);
 }
