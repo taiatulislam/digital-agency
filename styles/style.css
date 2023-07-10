@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+}
+
+.header {
+    height: 100vh;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: grey;
+    padding: 15px;
+}
+
+.menus>ul {
+    list-style: none;
+    display: flex;
+}
+
+.menus li {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.menus a {
+    text-decoration: none;
+    color: white;
+}
